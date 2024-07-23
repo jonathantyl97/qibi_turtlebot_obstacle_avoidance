@@ -17,17 +17,17 @@ bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
-
+```
 2. Clone this repository into the src folder of your catkin workspace:
 ```
 cd ~/catkin_ws/src
 git clone https://github.com/your_username/turtlebot3_obstacle_avoidance.git
-
+```
 3. Install dependencies:
 ```
 sudo apt-get update
 sudo apt-get install ros-noetic-turtlebot3 ros-noetic-turtlebot3-simulations ros-noetic-navigation
-
+```
 4. Build the package:
 ```
 cd ~/catkin_ws
