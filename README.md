@@ -21,7 +21,7 @@ catkin_make
 2. Clone this repository into the src folder of your catkin workspace:
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/your_username/turtlebot3_obstacle_avoidance.git
+git clone https://github.com/jonathantyl97/turtlebot3_obstacle_avoidance.git
 ```
 3. Install dependencies:
 ```
