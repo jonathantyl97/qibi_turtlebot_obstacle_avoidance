@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+*.so
+*.o
+*.os
+*.py[cod]
+*.egg
+*.egg-info
+devel/
+logs/
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+**/msg/_*.py
+**/srv/_*.py
