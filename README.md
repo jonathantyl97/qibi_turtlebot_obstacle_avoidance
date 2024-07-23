@@ -32,27 +32,27 @@ sudo apt-get install ros-noetic-turtlebot3 ros-noetic-turtlebot3-simulations ros
 ```
 cd ~/catkin_ws
 catkin_make
-
+```
 5. Source the setup file:
 ```
 source ~/catkin_ws/devel/setup.bash
-
+```
 ## Usage
 
 1. Launch the Turtlebot3 in Gazebo:
 ```
 export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
-
+```
 2. Launch the navigation stack:
 ```
 export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
-
+```
 3. Run the obstacle avoidance node:
 ```
 rosrun turtlebot3_obstacle_avoidance turtlebot3_obstacle_avoidance.py
-
+```
 ## Verification
 
 To verify that the program is working correctly:
@@ -60,10 +60,10 @@ To verify that the program is working correctly:
 	2. Use RViz to visualize the robot's path and the obstacles it's avoiding:
 ```
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch
-
+```
 	3. Check the terminal output for any error messages or unexpected behavior.
 	4. You can also use rqt_graph to visualize the ROS node graph and ensure that all necessary nodes are running and communicating properly:
 ```
 	rqt_graph
-	
+```	
 # qibi_turtlebot_obstacle_avoidance
