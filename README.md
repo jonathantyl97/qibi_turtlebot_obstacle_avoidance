@@ -47,7 +47,7 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 2. Launch the navigation stack:
 ```
 export TURTLEBOT3_MODEL=waffle
-roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/catkin_ws/map.yaml
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/catkin_ws/src/qibi_turtlebot_obstacle_avoidance/map.yaml
 ```
 3. Run the obstacle avoidance node:
 ```
