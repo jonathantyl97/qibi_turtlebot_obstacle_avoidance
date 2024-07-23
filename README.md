@@ -61,8 +61,9 @@ To verify that the program is working correctly:
 ```
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 ```
-	3. Check the terminal output for any error messages or unexpected behavior.
-	4. You can also use rqt_graph to visualize the ROS node graph and ensure that all necessary nodes are running and communicating properly:
+
+To observe the graph:
+
 ```
 rqt_graph
 ```	
