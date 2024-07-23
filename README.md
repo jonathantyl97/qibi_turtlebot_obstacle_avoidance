@@ -13,7 +13,7 @@ This ROS package implements a control program for Turtlebot3 in Gazebo that keep
 
 1. Create a catkin workspace if you haven't already:
 
-bash
+'''bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
