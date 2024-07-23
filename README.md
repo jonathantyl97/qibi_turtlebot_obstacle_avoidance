@@ -11,9 +11,9 @@ This ROS package implements a control program for Turtlebot3 in Gazebo that keep
 
 ## Installation
 
-1. Create a catkin workspace if you haven't already:
-
-'''bash
+1. Create a catkin workspace:
+```
+bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin_make
@@ -65,7 +65,4 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 	4. You can also use rqt_graph to visualize the ROS node graph and ensure that all necessary nodes are running and communicating properly:
 	rqt_graph
 	
-
-
- 
 # qibi_turtlebot_obstacle_avoidance
