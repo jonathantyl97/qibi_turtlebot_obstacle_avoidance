@@ -64,6 +64,6 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 	3. Check the terminal output for any error messages or unexpected behavior.
 	4. You can also use rqt_graph to visualize the ROS node graph and ensure that all necessary nodes are running and communicating properly:
 ```
-	rqt_graph
+rqt_graph
 ```	
 # qibi_turtlebot_obstacle_avoidance
